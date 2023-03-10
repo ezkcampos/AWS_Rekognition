@@ -14,7 +14,7 @@ with open('C:/Users/ezequ/Desktop/UNICARIOCA/1TCC/AWS/credentials.csv', 'r') as 
         secret_access_key = line[3]
 
 # Usa a foto
-photo = "C:/Users/ezequ/Desktop/IBRE/AWS_REKOGNITION/preco1.jpg"
+photo = "C:/Users/ezequ/Desktop/IBRE/AWS_REKOGNITION/preco8.jpg"
 
 
 # Cria o cliente
