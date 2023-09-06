@@ -6,7 +6,7 @@ from pprint import pprint
 import re
 
 # Cria um cliente da AWS lendo as credenciais do arquivo credentials.csv
-with open('C:/Users/ezequ/Desktop/UNICARIOCA/1TCC/AWS/credentials.csv', 'r') as input:
+with open('credentials.csv', 'r') as input:
     next(input)
     reader = csv.reader(input)
     for line in reader:
@@ -14,7 +14,7 @@ with open('C:/Users/ezequ/Desktop/UNICARIOCA/1TCC/AWS/credentials.csv', 'r') as 
         secret_access_key = line[3]
 
 # Usa a foto
-photo = "C:/Users/ezequ/Desktop/IBRE/AWS_REKOGNITION/preco8.jpg"
+photo = "preco8.jpg"
 
 
 # Cria o cliente
